@@ -1,0 +1,397 @@
+{
+  "generated": "2026-02-06T11:22:54.760Z",
+  "criteria": {
+    "itf_coverage": {
+      "weight": 25,
+      "description": "ITF турниры в лайве"
+    },
+    "line_speed": {
+      "weight": 20,
+      "description": "Скорость обновления (медленнее = лучше)"
+    },
+    "limits": {
+      "weight": 25,
+      "description": "Не режут лимиты"
+    },
+    "withdrawal": {
+      "weight": 15,
+      "description": "Быстрый вывод"
+    },
+    "verification": {
+      "weight": 10,
+      "description": "Минимальная верификация"
+    },
+    "accounts": {
+      "weight": 5,
+      "description": "Легко создать аккаунт"
+    }
+  },
+  "regions": {
+    "europe": {
+      "name": "Европа",
+      "countries": [
+        "UK",
+        "DE",
+        "ES",
+        "IT",
+        "FR",
+        "NL",
+        "BE",
+        "AT",
+        "CH",
+        "PL",
+        "CZ"
+      ],
+      "keywords": [
+        "european bookmaker",
+        "EU betting",
+        "licensed europe"
+      ]
+    },
+    "cis": {
+      "name": "СНГ",
+      "countries": [
+        "RU",
+        "UA",
+        "KZ",
+        "BY",
+        "UZ"
+      ],
+      "keywords": [
+        "букмекер",
+        "1xbet",
+        "fonbet",
+        "parimatch"
+      ]
+    },
+    "asia": {
+      "name": "Азия",
+      "countries": [
+        "PH",
+        "MY",
+        "TH",
+        "VN",
+        "ID",
+        "IN"
+      ],
+      "keywords": [
+        "asian bookmaker",
+        "asian handicap",
+        "sbobet",
+        "maxbet"
+      ]
+    },
+    "offshore": {
+      "name": "Офшор",
+      "countries": [
+        "CW",
+        "MT",
+        "GI",
+        "CY"
+      ],
+      "keywords": [
+        "offshore betting",
+        "curacao license",
+        "no limits bookmaker"
+      ]
+    },
+    "latam": {
+      "name": "Латинская Америка",
+      "countries": [
+        "BR",
+        "MX",
+        "AR",
+        "CO",
+        "CL"
+      ],
+      "keywords": [
+        "latin america betting",
+        "brazil bookmaker"
+      ]
+    }
+  },
+  "bookmakers": [
+    {
+      "name": "Bet365",
+      "region": "europe",
+      "url": "bet365.com",
+      "notes": "Большой ITF, но режут быстро"
+    },
+    {
+      "name": "Pinnacle",
+      "region": "offshore",
+      "url": "pinnacle.com",
+      "notes": "Не режут, но линии быстрые"
+    },
+    {
+      "name": "Betfair",
+      "region": "europe",
+      "url": "betfair.com",
+      "notes": "Биржа, линии очень быстрые"
+    },
+    {
+      "name": "Marathonbet",
+      "region": "europe",
+      "url": "marathonbet.com",
+      "notes": "Неплохо для ITF"
+    },
+    {
+      "name": "Unibet",
+      "region": "europe",
+      "url": "unibet.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "Bwin",
+      "region": "europe",
+      "url": "bwin.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "888sport",
+      "region": "europe",
+      "url": "888sport.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "William Hill",
+      "region": "europe",
+      "url": "williamhill.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "Ladbrokes",
+      "region": "europe",
+      "url": "ladbrokes.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "1xBet",
+      "region": "offshore",
+      "url": "1xbet.com",
+      "notes": "Много ITF, терпят дольше"
+    },
+    {
+      "name": "Melbet",
+      "region": "offshore",
+      "url": "melbet.com",
+      "notes": "Клон 1xbet"
+    },
+    {
+      "name": "22bet",
+      "region": "offshore",
+      "url": "22bet.com",
+      "notes": "Клон 1xbet"
+    },
+    {
+      "name": "Betwinner",
+      "region": "offshore",
+      "url": "betwinner.com",
+      "notes": "Клон 1xbet"
+    },
+    {
+      "name": "Parimatch",
+      "region": "cis",
+      "url": "parimatch.com",
+      "notes": "СНГ, средне"
+    },
+    {
+      "name": "Fonbet",
+      "region": "cis",
+      "url": "fonbet.com",
+      "notes": "РФ, легальный"
+    },
+    {
+      "name": "Leonbets",
+      "region": "cis",
+      "url": "leonbets.com",
+      "notes": "СНГ"
+    },
+    {
+      "name": "SBOBET",
+      "region": "asia",
+      "url": "sbobet.com",
+      "notes": "Азия, профессионалы"
+    },
+    {
+      "name": "Maxbet/IBCbet",
+      "region": "asia",
+      "url": "maxbet.com",
+      "notes": "Азия"
+    },
+    {
+      "name": "Singbet",
+      "region": "asia",
+      "url": "singbet.com",
+      "notes": "Сингапур"
+    },
+    {
+      "name": "188bet",
+      "region": "asia",
+      "url": "188bet.com",
+      "notes": "Азия"
+    },
+    {
+      "name": "Dafabet",
+      "region": "asia",
+      "url": "dafabet.com",
+      "notes": "Азия, хороший ITF"
+    },
+    {
+      "name": "Stake",
+      "region": "offshore",
+      "url": "stake.com",
+      "notes": "Крипто, быстрый вывод"
+    },
+    {
+      "name": "Cloudbet",
+      "region": "offshore",
+      "url": "cloudbet.com",
+      "notes": "Крипто"
+    },
+    {
+      "name": "Sportsbet.io",
+      "region": "offshore",
+      "url": "sportsbet.io",
+      "notes": "Крипто"
+    },
+    {
+      "name": "Duelbits",
+      "region": "offshore",
+      "url": "duelbits.com",
+      "notes": "Крипто"
+    },
+    {
+      "name": "Rollbit",
+      "region": "offshore",
+      "url": "rollbit.com",
+      "notes": "Крипто, лимиты?"
+    },
+    {
+      "name": "Betsson",
+      "region": "europe",
+      "url": "betsson.com",
+      "notes": "Скандинавия"
+    },
+    {
+      "name": "Nordicbet",
+      "region": "europe",
+      "url": "nordicbet.com",
+      "notes": "Скандинавия"
+    },
+    {
+      "name": "Betway",
+      "region": "europe",
+      "url": "betway.com",
+      "notes": "Режут"
+    },
+    {
+      "name": "Betclic",
+      "region": "europe",
+      "url": "betclic.com",
+      "notes": "Франция"
+    },
+    {
+      "name": "Tipico",
+      "region": "europe",
+      "url": "tipico.com",
+      "notes": "Германия"
+    },
+    {
+      "name": "Interwetten",
+      "region": "europe",
+      "url": "interwetten.com",
+      "notes": "Австрия"
+    },
+    {
+      "name": "Sportingbet",
+      "region": "europe",
+      "url": "sportingbet.com",
+      "notes": ""
+    },
+    {
+      "name": "Betcris",
+      "region": "latam",
+      "url": "betcris.com",
+      "notes": "Латам"
+    },
+    {
+      "name": "Caliente",
+      "region": "latam",
+      "url": "caliente.mx",
+      "notes": "Мексика"
+    },
+    {
+      "name": "Betano",
+      "region": "europe",
+      "url": "betano.com",
+      "notes": "Румыния/Бразилия"
+    },
+    {
+      "name": "Superbet",
+      "region": "europe",
+      "url": "superbet.com",
+      "notes": "Румыния/Польша"
+    },
+    {
+      "name": "STS",
+      "region": "europe",
+      "url": "sts.pl",
+      "notes": "Польша"
+    },
+    {
+      "name": "Fortuna",
+      "region": "europe",
+      "url": "fortuna.pl",
+      "notes": "Польша/Чехия"
+    },
+    {
+      "name": "Tipsport",
+      "region": "europe",
+      "url": "tipsport.cz",
+      "notes": "Чехия"
+    }
+  ],
+  "preliminary_rating": [
+    {
+      "name": "1xBet/Melbet/22bet",
+      "score": 85,
+      "reason": "Много ITF, терпят дольше, но мутный вывод"
+    },
+    {
+      "name": "Pinnacle",
+      "score": 75,
+      "reason": "Не режут лимиты, но линии быстрые"
+    },
+    {
+      "name": "Stake (крипто)",
+      "score": 80,
+      "reason": "Быстрый вывод, терпят, но проверить ITF"
+    },
+    {
+      "name": "Dafabet",
+      "score": 70,
+      "reason": "Хороший ITF, азия"
+    },
+    {
+      "name": "SBOBET",
+      "score": 65,
+      "reason": "Профи принимают, но нужен агент"
+    },
+    {
+      "name": "Marathonbet",
+      "score": 60,
+      "reason": "Есть ITF, средне по лимитам"
+    },
+    {
+      "name": "Bet365",
+      "score": 50,
+      "reason": "Отличный ITF, но режут моментально"
+    },
+    {
+      "name": "Betfair",
+      "score": 40,
+      "reason": "Биржа - линии слишком быстрые"
+    }
+  ]
+}
